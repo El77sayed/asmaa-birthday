@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10040d">
+  <title>عيد ميلاد سعيد يا Asmaa ❤️</title>
+  <style>
+    :root{--pink:#ff5fa2;--rose:#ff8cbd;--deep:#10040d;--card:rgba(36,9,28,.78);--gold:#ffd58a}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;min-height:100vh;color:#fff7fb;background:radial-gradient(ellipse at top,#47112e 0%,#1b0715 44%,#080308 100%);font-family:Tahoma,Arial,sans-serif;overflow-x:hidden}
+    button{font:inherit;cursor:pointer}
+    .glow{position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 15% 20%,rgba(255,55,137,.12),transparent 28%),radial-gradient(circle at 85% 70%,rgba(255,95,162,.1),transparent 30%);z-index:0}
+    .hearts{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:1}
+    .heart{position:absolute;bottom:-50px;color:var(--pink);opacity:.75;animation:floatUp linear forwards;text-shadow:0 0 14px #ff2c89}
+    @keyframes floatUp{to{transform:translateY(-115vh) rotate(35deg);opacity:0}}
+    .wrap{position:relative;z-index:2;width:min(920px,100%);margin:auto;padding:22px 16px 42px}
+    .topline{text-align:center;color:#ffc0dc;font-size:.9rem;letter-spacing:2px;margin:12px 0 24px}
+    .hero{text-align:center;padding:28px 16px 32px;border:1px solid rgba(255,130,190,.32);border-radius:28px;background:linear-gradient(145deg,rgba(64,14,44,.76),rgba(16,4,13,.7));box-shadow:0 0 45px rgba(255,50,135,.12);overflow:hidden}
+    .tiny-heart{font-size:2.3rem;color:var(--pink);animation:pulse 1.5s infinite;display:inline-block}
+    @keyframes pulse{50%{transform:scale(1.2);text-shadow:0 0 22px var(--pink)}}
+    .eyebrow{color:#ffc0dc;margin:12px 0 5px}
+    h1{font-size:clamp(2.7rem,11vw,5.8rem);line-height:1.05;margin:8px 0;color:#fff;text-shadow:0 0 22px rgba(255,95,162,.65);font-family:Georgia,serif;font-style:italic;direction:ltr}
+    .subtitle{font-size:clamp(1rem,4vw,1.25rem);line-height:1.9;color:#ffe4f0;margin:14px auto;max-width:560px}
+    .cake{font-size:clamp(3.5rem,15vw,6rem);margin:14px 0;filter:drop-shadow(0 0 16px rgba(255,95,162,.25))}
+    .btn{border:0;border-radius:999px;padding:13px 23px;background:linear-gradient(110deg,#ff438f,#d91d6b);color:white;font-weight:bold;box-shadow:0 8px 24px rgba(255,42,126,.28);transition:transform .2s,filter .2s}
+    .btn:hover{transform:translateY(-2px);filter:brightness(1.08)}
+    .btn.secondary{background:rgba(255,255,255,.08);border:1px solid rgba(255,140,189,.5);box-shadow:none}
+    .section{margin-top:22px;padding:24px 20px;border:1px solid rgba(255,130,190,.23);border-radius:24px;background:var(--card);box-shadow:0 12px 38px rgba(0,0,0,.15)}
+    h2{color:#ff9ac7;text-align:center;margin:0 0 17px;font-size:clamp(1.3rem,5vw,1.8rem)}
+    .letter{display:none;line-height:2.15;font-size:1.04rem;color:#fff0f7;white-space:pre-line;animation:appear .8s ease}
+    .letter.show{display:block}
+    @keyframes appear{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+    .signature{text-align:left;font-family:Georgia,serif;font-style:italic;font-size:1.7rem;color:#ff9ac7;margin-top:16px;direction:ltr}
+    .memory-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    .memory{min-height:115px;border-radius:16px;border:1px solid rgba(255,130,190,.3);background:linear-gradient(145deg,rgba(255,95,162,.2),rgba(20,5,16,.8));display:flex;align-items:center;justify-content:center;flex-direction:column;gap:9px;text-align:center;padding:12px;color:#ffe1ee}
+    .memory span{font-size:2rem}
+    .memory small{line-height:1.5}
+    .heart-message{text-align:center;padding:18px 0}
+    .big-heart{font-size:clamp(6rem,30vw,10rem);line-height:1;color:#ff3e8e;filter:drop-shadow(0 0 22px rgba(255,62,142,.45));animation:pulse 2s infinite}
+    .heart-caption{font-size:1.2rem;color:#ffd9e9;line-height:1.9;margin:12px 0}
+    .music-row{display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap}
+    .music-note{font-size:1.3rem}
+    .hint{color:#dcb5c9;font-size:.82rem;line-height:1.7;text-align:center;margin-top:12px}
+    .surprise{display:none;text-align:center;line-height:2;font-size:1.12rem;color:#ffe6f1}
+    .surprise.show{display:block;animation:appear .7s ease}
+    .surprise .stars{font-size:2rem;letter-spacing:7px;color:var(--gold)}
+    footer{text-align:center;padding:30px 8px 5px;color:#d6a5be;font-size:.85rem;line-height:1.8}
+    .divider{width:85px;height:2px;background:linear-gradient(90deg,transparent,var(--pink),transparent);margin:16px auto}
+    @media(max-width:520px){.wrap{padding:12px 12px 30px}.hero{padding:24px 13px}.section{padding:20px 14px}.memory-grid{grid-template-columns:1fr}.memory{min-height:86px;flex-direction:row}.memory span{font-size:1.7rem}.memory small{text-align:right}.letter{font-size:.98rem}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
+  </style>
+</head>
+<body>
+  <div class="glow"></div><div class="hearts" id="hearts" aria-hidden="true"></div>
+  <main class="wrap">
+    <div class="topline">✦ A SPECIAL DAY FOR A SPECIAL GIRL ✦</div>
+    <header class="hero">
+      <div class="tiny-heart">♥</div>
+      <p class="eyebrow">النهارده يوم مميز جدًا…</p>
+      <h1>Happy Birthday<br>Asmaa</h1>
+      <p class="subtitle">كل سنة وإنتِ أجمل حكاية، وأحنّ قلب، وأحلى صدفة في حياتي ❤️</p>
+      <div class="cake" aria-label="كعكة عيد ميلاد">🎂</div>
+      <p style="color:#ffc4df">22 سنة من الجمال… ولسه الحكاية الأحلى جاية ✨</p>
+      <button class="btn" id="openLetter">اضغطي هنا علشان تقري رسالتي ❤️</button>
+    </header>
+
+    <section class="section" id="letterSection">
+      <h2>💌 رسالة عيد ميلادك</h2>
+      <div class="letter" id="letter">
+يا Asmaa ❤️
+
+كل سنة وإنتِ طيبة يا أجمل اسم وأجمل إحساس. النهارده مش مجرد يوم في السنة، ده اليوم اللي الدنيا فيه بقت أحلى بوجودك.
+
+أتمنى سنتك الجديدة تكون مليانة راحة وفرحة ونجاح، وتلاقي فيها كل حاجة نفسك فيها. أتمنى ضحكتك تفضل منوّرة أيامك، وقلبك ما يعرفش الزعل، وربنا يحققلك كل أمنية مخبياها جواكي.
+
+يمكن الكلام مهما كان حلو ما يقدرش يوصف مكانتك، بس حبيت أقولك إن وجودك فارق، وإنك تستاهلي كل الحاجات الحلوة اللي في الدنيا.
+
+في عيد ميلادك الـ22، بتمنالك بداية جديدة مليانة حب وأمل، وأيام تفتكريها بابتسامة، وأحلام تتحول لحقيقة واحدة ورا التانية.
+
+كل سنة وإنتِ بخير يا Asmaa، وكل سنة وقلبك مبسوط، وكل سنة وإنتِ أجمل من السنة اللي قبلها. ❤️
+        <div class="signature">With love ♥</div>
+      </div>
+      <div style="text-align:center" id="letterPrompt"><p class="hint">الرسالة دي مستنياكي… اضغطي على الزر اللي فوق 💗</p></div>
+    </section>
+
+    <section class="section">
+      <h2>🌹 شوية حاجات بتفكّرني بيكي</h2>
+      <div class="memory-grid">
+        <div class="memory"><span>🌷</span><small><b>ضحكتك</b><br>تفصيلة صغيرة بتخلّي اليوم أحلى</small></div>
+        <div class="memory"><span>✨</span><small><b>وجودك</b><br>بيخلّي للحكايات معنى مختلف</small></div>
+        <div class="memory"><span>💖</span><small><b>قلبك</b><br>أتمناله راحة وفرحة على طول</small></div>
+      </div>
+      <p class="hint">دي مساحة رمزية، وتقدر تضيف صوركم وذكرياتكم بعدين لو حبيت.</p>
+    </section>
+
+    <section class="section">
+      <h2>🎵 لحن صغير مخصوص ليكي</h2>
+      <div class="music-row">
+        <span class="music-note" id="musicIcon">🎶</span>
+        <button class="btn secondary" id="musicButton">▶ تشغيل الموسيقى</button>
+      </div>
+      <p class="hint">الموسيقى بتتولد من الموقع نفسه ومش محتاجة ملف خارجي. اضغطي على الزر للتشغيل أو الإيقاف.</p>
+    </section>
+
+    <section class="section">
+      <h2>💗 في كلمة لازم تعرفيها</h2>
+      <div class="heart-message">
+        <div class="big-heart">♥</div>
+        <p class="heart-caption">وسط كل الناس والحكايات…<br>إنتِ ليكي مكانة خاصة يا Asmaa.</p>
+        <button class="btn" id="surpriseButton">افتحي مفاجأتك الأخيرة 🎁</button>
+      </div>
+      <div class="surprise" id="surprise">
+        <div class="stars">✦ ✧ ✦</div>
+        <p>أتمنالك 22 سنة مليانة حاجات حلوة، وناس بتحبك بصدق، وأيام تعوّض قلبك عن أي تعب.</p>
+        <p>خليكي دايمًا فخورة بنفسك، لأنك تستاهلي الخير والفرحة وكل حلم جميل. 🌹</p>
+        <p><b>عيد ميلاد سعيد يا Asmaa ❤️</b></p>
+      </div>
+    </section>
+    <footer>
+      معمول بحب مخصوص ليكي يا Asmaa<br>
+      <div class="divider"></div>
+      <span>♥ كل سنة وإنتِ بخير ♥</span>
+    </footer>
+  </main>
+  <script>
+    const heartsBox = document.getElementById('hearts');
+    const heartSymbols = ['♥','♡','❤','💗'];
+    function createHeart(){
+      const heart = document.createElement('span');
+      heart.className = 'heart';
+      heart.textContent = heartSymbols[Math.floor(Math.random()*heartSymbols.length)];
+      heart.style.left = Math.random()*100 + 'vw';
+      heart.style.fontSize = (12 + Math.random()*22) + 'px';
+      const duration = 7 + Math.random()*7;
+      heart.style.animationDuration = duration + 's';
+      heartsBox.appendChild(heart);
+      setTimeout(()=>heart.remove(), duration*1000);
+    }
+    for(let i=0;i<14;i++) setTimeout(createHeart, i*350);
+    setInterval(createHeart, 650);
+
+    document.getElementById('openLetter').addEventListener('click',()=>{
+      document.getElementById('letter').classList.add('show');
+      document.getElementById('letterPrompt').style.display='none';
+      document.getElementById('letterSection').scrollIntoView({behavior:'smooth',block:'start'});
+    });
+    document.getElementById('surpriseButton').addEventListener('click',()=>{
+      const surprise=document.getElementById('surprise');
+      surprise.classList.toggle('show');
+      document.getElementById('surpriseButton').textContent=surprise.classList.contains('show')?'المفاجأة اتفتحت ❤️':'افتحي مفاجأتك الأخيرة 🎁';
+    });
+
+    // توليد لحن بسيط باستخدام Web Audio API؛ يبدأ فقط بعد ضغط المستخدم.
+    let audioContext=null, masterGain=null, melodyTimer=null, noteIndex=0;
+    const melody=[523.25,659.25,783.99,659.25,587.33,698.46,880,698.46,523.25,587.33,659.25,523.25];
+    function playNote(freq, start){
+      const osc=audioContext.createOscillator();
+      const gain=audioContext.createGain();
+      osc.type='sine'; osc.frequency.value=freq;
+      gain.gain.setValueAtTime(0.0001,start);
+      gain.gain.exponentialRampToValueAtTime(0.12,start+0.035);
+      gain.gain.exponentialRampToValueAtTime(0.0001,start+0.38);
+      osc.connect(gain);gain.connect(masterGain);
+      osc.start(start);osc.stop(start+0.42);
+    }
+    function melodyStep(){
+      if(!audioContext || !masterGain) return;
+      const now=audioContext.currentTime;
+      playNote(melody[noteIndex % melody.length],now);
+      if(noteIndex%3===0) playNote(melody[(noteIndex+4)%melody.length]/2,now);
+      noteIndex++;
+    }
+    async function startMusic(){
+      const AudioCtx=window.AudioContext||window.webkitAudioContext;
+      if(!AudioCtx){alert('المتصفح مش بيدعم تشغيل اللحن. جربي متصفح أحدث.');return;}
+      if(!audioContext){audioContext=new AudioCtx();masterGain=audioContext.createGain();masterGain.gain.value=.6;masterGain.connect(audioContext.destination);}
+      await audioContext.resume();
+      melodyStep();melodyTimer=setInterval(melodyStep,430);
+      document.getElementById('musicButton').textContent='❚❚ إيقاف الموسيقى';
+      document.getElementById('musicIcon').textContent='🎼';
+    }
+    function stopMusic(){
+      if(melodyTimer){clearInterval(melodyTimer);melodyTimer=null;}
+      if(audioContext) audioContext.suspend();
+      document.getElementById('musicButton').textContent='▶ تشغيل الموسيقى';
+      document.getElementById('musicIcon').textContent='🎶';
+    }
+    document.getElementById('musicButton').addEventListener('click',()=>{
+      if(melodyTimer) stopMusic(); else startMusic().catch(()=>alert('تعذّر تشغيل الموسيقى. اضغطي مرة تانية وجربي.'));
+    });
+  </script>
+</body>
+</html>
